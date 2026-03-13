@@ -4,9 +4,6 @@ Console.Write("Enter day number 1-7: ");
 string? dayStr = Console.ReadLine();
 int day = 0;
 
-//day = Convert.ToInt32(dayStr);
-
-
 bool success = int.TryParse(dayStr, out day);
 if (success)
 {
